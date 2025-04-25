@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 void quick_sort(int *arr, int left, int right){
     if(left >= right) return;
